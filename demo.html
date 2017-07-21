@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Document</title>
+</head>
+<body ng-app="app">
+    <!-- <div class="content">
+        <ul>
+            <li><a href="#/">初始化</li>
+            <li><a href="#/user">用户</li>
+            <li><a href="#/books">图书</li>
+            <li><a href="#/goods">商品</li>
+            <li><a href="#/prense">用户</li>
+        </ul>
+    </div>
+    <div ng-view>
+
+    </div> -->
+
+    <!-- <script src="lib/angular.min.js"></script>
+    <script src="lib/angular-route.min.js"></script>
+    <script src="js/demo.js"></script> -->
+    <script>
+       var arr = 'a b c d e f g'.split('');
+       function getUser (array) {
+          return array[Math.floor(Math.random()*array.length)];
+       }
+
+       var x = getUser(arr);
+       console.log(x);
+    </script>
+</body>
+</html>
